@@ -1,0 +1,22 @@
+<div style="padding: 20px;">
+  <h2>Custom Search in Syncfusion Pivot Table</h2>
+  
+  <!-- Search Input -->
+  <div style="margin-bottom: 20px;">
+    <input 
+      type="text" 
+      [(ngModel)]="searchTerm" 
+      (input)="applySearch()" 
+      placeholder="Search by Country (e.g., United)" 
+      style="padding: 8px; width: 300px;"
+    />
+  </div>
+
+  <!-- Pivot Table -->
+  <ejs-pivotview 
+    #pivotview 
+    [dataSourceSettings]="dataSourceSettings" 
+    height="350" 
+    width="100%">
+  </ejs-pivotview>
+</div>
