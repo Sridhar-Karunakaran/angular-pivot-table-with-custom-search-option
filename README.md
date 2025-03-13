@@ -1,2 +1,2 @@
 # angular-pivot-table-with-custom-search-option
-This project demonstrates how to add custom search functionality to the Syncfusion Pivot Table in Angular. It uses Syncfusion's label filtering to dynamically filter data based on user input, allowing for a more interactive and user-friendly data analysis experience.
+This project demonstrates how to add custom search functionality to the [Syncfusion Angular Pivot Table](https://www.syncfusion.com/angular-components/angular-pivot-table). It uses Pivot Table [label filtering](https://ej2.syncfusion.com/angular/documentation/pivotview/filtering#label-filtering) to dynamically filter data based on user input, allowing for a more interactive and user-friendly data analysis experience.
